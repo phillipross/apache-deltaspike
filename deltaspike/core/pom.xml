@@ -21,13 +21,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.deltaspike</groupId>
+        <groupId>co.luminositylabs.deltaspike</groupId>
         <artifactId>parent-code</artifactId>
-        <version>2.0.0-SNAPSHOT</version>
+        <version>2.0.0-ll-SNAPSHOT</version>
         <relativePath>../parent/code/pom.xml</relativePath>
     </parent>
 
-    <groupId>org.apache.deltaspike.core</groupId>
+    <groupId>co.luminositylabs.deltaspike.core</groupId>
     <artifactId>core-project</artifactId>
     <packaging>pom</packaging>
 

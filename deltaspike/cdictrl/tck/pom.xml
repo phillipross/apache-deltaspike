@@ -20,13 +20,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.apache.deltaspike.cdictrl</groupId>
+        <groupId>co.luminositylabs.deltaspike.cdictrl</groupId>
         <artifactId>cdictrl-project</artifactId>
-        <version>2.0.0-SNAPSHOT</version>
+        <version>2.0.0-ll-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.apache.deltaspike.test</groupId>
+    <groupId>co.luminositylabs.deltaspike.test</groupId>
     <artifactId>deltaspike-cdictrl-tck</artifactId>
     <packaging>jar</packaging>
 
@@ -81,13 +81,13 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.deltaspike.cdictrl</groupId>
+            <groupId>co.luminositylabs.deltaspike.cdictrl</groupId>
             <artifactId>deltaspike-cdictrl-api</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.deltaspike.test</groupId>
+            <groupId>co.luminositylabs.deltaspike.test</groupId>
             <artifactId>test-utils</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
